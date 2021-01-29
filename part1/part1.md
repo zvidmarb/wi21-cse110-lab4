@@ -28,3 +28,25 @@
     C. student.greeting()
     D. student["Favorite Teacher".name]
     E. student.courseLoad[0]
+
+14. Arithmetic
+    A. '32', `2` was converted to a string and concatenated
+    B. 1, since there is no string operator involving `-`, but there is subtraction
+    C. 3, null acts as a 0 in terms of number addition
+    D. '3null', null is converted to a string and concatenated
+    E. 4, as `true` is converted to `1` after suspecting number addition
+    F.  0, `false` and  `null` are both convertible and treated as 0's in number addition
+    G. '3undefined', `undefined` is converted to a string and concatenated with `3`
+    H. NaN, as one of the operands (`undefined`) is not defined/ assigned a value
+
+15. Comparison
+    A. true, `'2'` was converted to the number 2
+    B. false, since it compares strings lexiographically - 2 is a larger value in the alphabet
+    C. true, since `'2'` is converted to a number equal to 2
+    D. false, number and string are not the same types
+    E. false, type changing a `true` boolean sets it to the number 1
+    F. true, as `2` was already converted to a true boolean before the strict equality was checked
+
+16. `==`, the equality sign, converts each operand to numbers if they aren't already, then compares their values. `==`, the *strict* equality does not convert each operand - if the types are different, it automatically returns false.
+
+17. 

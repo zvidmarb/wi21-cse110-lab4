@@ -49,4 +49,8 @@
 
 16. `==`, the equality sign, converts each operand to numbers if they aren't already, then compares their values. `==`, the *strict* equality does not convert each operand - if the types are different, it automatically returns false.
 
-17. 
+17. `'How are you?'` gets printed since `true` converts to 1 in the first condition and `2` is treated as a true boolean in the second.
+
+19. `[6,8,10]` is the result of `newArr` - the function `modifyArray` iterates through `[1,2,3]`, taking each element and passing it into the callback function `doSomething`. The callback function adds 2 to the array element and passes it into its callback, a `function(x)`, which then multiplies the element by 2. The final return value of this is the result of `doSomething`, a new number that is pushed to the `newArr`. This iteration occurs three times, adding a new modified array element for each existing one.
+
+21. The output is 1 4 3 2, since 1 and 4 don't have any `setTimeout` structure attached to them, 3 has a 0ms timeout, and 2 has a 1000ms timeout.
